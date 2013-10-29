@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=SORRv5a
+Comment=Streets Of Rage Remake 
+Exec=sorrv5a.dge
+Terminal=false
+Type=Application
+StartupNotify=true
+Icon=sorrv5a
+Categories=games;

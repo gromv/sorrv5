@@ -1,0 +1,13 @@
+
+if [ ! -d "$HOME/.sorrv5a" ]; then
+    mkdir $HOME/.sorrv5a
+fi
+
+if [ ! -d "$HOME/.sorrv5a/savegame" ]; then
+    cp -R savegame_empty $HOME/.sorrv5a/savegame
+fi
+
+ln -sf $HOME/.sorrv5a/savegame /tmp/.sorrv5a_savegame
+
+cd sorr
+bgdi SorR.dat
